@@ -1,12 +1,15 @@
 import React from 'react'
 import Button from '../../Button'
-import { HiOutlineShoppingCart } from 'react-icons/hi'
+import { HiOutlineShoppingCart, HiOutlineUser } from 'react-icons/hi'
 
 const HeaderActions = () => {
   return (
     <div>
         <Button variant="icon">
             <HiOutlineShoppingCart/>
+        </Button>
+         <Button variant="icon">
+            <HiOutlineUser/>
         </Button>
     </div>
   )
